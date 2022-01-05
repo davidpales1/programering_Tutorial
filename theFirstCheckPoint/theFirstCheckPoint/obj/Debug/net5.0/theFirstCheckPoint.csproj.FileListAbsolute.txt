@@ -1,0 +1,16 @@
+C:\Users\david\Desktop\programering\theFirstCheckPoint\theFirstCheckPoint\bin\Debug\net5.0\theFirstCheckPoint.exe
+C:\Users\david\Desktop\programering\theFirstCheckPoint\theFirstCheckPoint\bin\Debug\net5.0\theFirstCheckPoint.deps.json
+C:\Users\david\Desktop\programering\theFirstCheckPoint\theFirstCheckPoint\bin\Debug\net5.0\theFirstCheckPoint.runtimeconfig.json
+C:\Users\david\Desktop\programering\theFirstCheckPoint\theFirstCheckPoint\bin\Debug\net5.0\theFirstCheckPoint.runtimeconfig.dev.json
+C:\Users\david\Desktop\programering\theFirstCheckPoint\theFirstCheckPoint\bin\Debug\net5.0\theFirstCheckPoint.dll
+C:\Users\david\Desktop\programering\theFirstCheckPoint\theFirstCheckPoint\bin\Debug\net5.0\ref\theFirstCheckPoint.dll
+C:\Users\david\Desktop\programering\theFirstCheckPoint\theFirstCheckPoint\bin\Debug\net5.0\theFirstCheckPoint.pdb
+C:\Users\david\Desktop\programering\theFirstCheckPoint\theFirstCheckPoint\obj\Debug\net5.0\theFirstCheckPoint.csproj.AssemblyReference.cache
+C:\Users\david\Desktop\programering\theFirstCheckPoint\theFirstCheckPoint\obj\Debug\net5.0\theFirstCheckPoint.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david\Desktop\programering\theFirstCheckPoint\theFirstCheckPoint\obj\Debug\net5.0\theFirstCheckPoint.AssemblyInfoInputs.cache
+C:\Users\david\Desktop\programering\theFirstCheckPoint\theFirstCheckPoint\obj\Debug\net5.0\theFirstCheckPoint.AssemblyInfo.cs
+C:\Users\david\Desktop\programering\theFirstCheckPoint\theFirstCheckPoint\obj\Debug\net5.0\theFirstCheckPoint.csproj.CoreCompileInputs.cache
+C:\Users\david\Desktop\programering\theFirstCheckPoint\theFirstCheckPoint\obj\Debug\net5.0\theFirstCheckPoint.dll
+C:\Users\david\Desktop\programering\theFirstCheckPoint\theFirstCheckPoint\obj\Debug\net5.0\ref\theFirstCheckPoint.dll
+C:\Users\david\Desktop\programering\theFirstCheckPoint\theFirstCheckPoint\obj\Debug\net5.0\theFirstCheckPoint.pdb
+C:\Users\david\Desktop\programering\theFirstCheckPoint\theFirstCheckPoint\obj\Debug\net5.0\theFirstCheckPoint.genruntimeconfig.cache

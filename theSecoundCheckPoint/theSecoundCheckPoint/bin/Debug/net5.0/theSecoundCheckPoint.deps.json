@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "theSecoundCheckPoint/1.0.0": {
+        "runtime": {
+          "theSecoundCheckPoint.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "theSecoundCheckPoint/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
