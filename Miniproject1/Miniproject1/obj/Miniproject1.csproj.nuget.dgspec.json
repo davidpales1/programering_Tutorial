@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\david\\Desktop\\programering_Tutorial\\theFirstCheckPoint\\theFirstCheckPoint\\theFirstCheckPoint.csproj": {}
+    "C:\\Users\\david\\Desktop\\programering_Tutorial\\Miniproject1\\Miniproject1\\Miniproject1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\david\\Desktop\\programering_Tutorial\\theFirstCheckPoint\\theFirstCheckPoint\\theFirstCheckPoint.csproj": {
+    "C:\\Users\\david\\Desktop\\programering_Tutorial\\Miniproject1\\Miniproject1\\Miniproject1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\david\\Desktop\\programering_Tutorial\\theFirstCheckPoint\\theFirstCheckPoint\\theFirstCheckPoint.csproj",
-        "projectName": "theFirstCheckPoint",
-        "projectPath": "C:\\Users\\david\\Desktop\\programering_Tutorial\\theFirstCheckPoint\\theFirstCheckPoint\\theFirstCheckPoint.csproj",
+        "projectUniqueName": "C:\\Users\\david\\Desktop\\programering_Tutorial\\Miniproject1\\Miniproject1\\Miniproject1.csproj",
+        "projectName": "Miniproject1",
+        "projectPath": "C:\\Users\\david\\Desktop\\programering_Tutorial\\Miniproject1\\Miniproject1\\Miniproject1.csproj",
         "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\david\\Desktop\\programering_Tutorial\\theFirstCheckPoint\\theFirstCheckPoint\\obj\\",
+        "outputPath": "C:\\Users\\david\\Desktop\\programering_Tutorial\\Miniproject1\\Miniproject1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

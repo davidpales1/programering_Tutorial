@@ -1,0 +1,16 @@
+C:\Users\david\Desktop\programering_Tutorial\Miniproject1\Miniproject1\obj\Debug\net5.0\Miniproject1.csproj.AssemblyReference.cache
+C:\Users\david\Desktop\programering_Tutorial\Miniproject1\Miniproject1\obj\Debug\net5.0\Miniproject1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david\Desktop\programering_Tutorial\Miniproject1\Miniproject1\obj\Debug\net5.0\Miniproject1.AssemblyInfoInputs.cache
+C:\Users\david\Desktop\programering_Tutorial\Miniproject1\Miniproject1\obj\Debug\net5.0\Miniproject1.AssemblyInfo.cs
+C:\Users\david\Desktop\programering_Tutorial\Miniproject1\Miniproject1\obj\Debug\net5.0\Miniproject1.csproj.CoreCompileInputs.cache
+C:\Users\david\Desktop\programering_Tutorial\Miniproject1\Miniproject1\bin\Debug\net5.0\Miniproject1.exe
+C:\Users\david\Desktop\programering_Tutorial\Miniproject1\Miniproject1\bin\Debug\net5.0\Miniproject1.deps.json
+C:\Users\david\Desktop\programering_Tutorial\Miniproject1\Miniproject1\bin\Debug\net5.0\Miniproject1.runtimeconfig.json
+C:\Users\david\Desktop\programering_Tutorial\Miniproject1\Miniproject1\bin\Debug\net5.0\Miniproject1.runtimeconfig.dev.json
+C:\Users\david\Desktop\programering_Tutorial\Miniproject1\Miniproject1\bin\Debug\net5.0\Miniproject1.dll
+C:\Users\david\Desktop\programering_Tutorial\Miniproject1\Miniproject1\bin\Debug\net5.0\ref\Miniproject1.dll
+C:\Users\david\Desktop\programering_Tutorial\Miniproject1\Miniproject1\bin\Debug\net5.0\Miniproject1.pdb
+C:\Users\david\Desktop\programering_Tutorial\Miniproject1\Miniproject1\obj\Debug\net5.0\Miniproject1.dll
+C:\Users\david\Desktop\programering_Tutorial\Miniproject1\Miniproject1\obj\Debug\net5.0\ref\Miniproject1.dll
+C:\Users\david\Desktop\programering_Tutorial\Miniproject1\Miniproject1\obj\Debug\net5.0\Miniproject1.pdb
+C:\Users\david\Desktop\programering_Tutorial\Miniproject1\Miniproject1\obj\Debug\net5.0\Miniproject1.genruntimeconfig.cache
