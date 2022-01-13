@@ -1,0 +1,16 @@
+C:\Users\david\Desktop\programering_Tutorial\theThirdCheckPoint\theThirdCheckPoint\obj\Debug\net5.0\theThirdCheckPoint.csproj.AssemblyReference.cache
+C:\Users\david\Desktop\programering_Tutorial\theThirdCheckPoint\theThirdCheckPoint\obj\Debug\net5.0\theThirdCheckPoint.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david\Desktop\programering_Tutorial\theThirdCheckPoint\theThirdCheckPoint\obj\Debug\net5.0\theThirdCheckPoint.AssemblyInfoInputs.cache
+C:\Users\david\Desktop\programering_Tutorial\theThirdCheckPoint\theThirdCheckPoint\obj\Debug\net5.0\theThirdCheckPoint.AssemblyInfo.cs
+C:\Users\david\Desktop\programering_Tutorial\theThirdCheckPoint\theThirdCheckPoint\obj\Debug\net5.0\theThirdCheckPoint.csproj.CoreCompileInputs.cache
+C:\Users\david\Desktop\programering_Tutorial\theThirdCheckPoint\theThirdCheckPoint\bin\Debug\net5.0\theThirdCheckPoint.exe
+C:\Users\david\Desktop\programering_Tutorial\theThirdCheckPoint\theThirdCheckPoint\bin\Debug\net5.0\theThirdCheckPoint.deps.json
+C:\Users\david\Desktop\programering_Tutorial\theThirdCheckPoint\theThirdCheckPoint\bin\Debug\net5.0\theThirdCheckPoint.runtimeconfig.json
+C:\Users\david\Desktop\programering_Tutorial\theThirdCheckPoint\theThirdCheckPoint\bin\Debug\net5.0\theThirdCheckPoint.runtimeconfig.dev.json
+C:\Users\david\Desktop\programering_Tutorial\theThirdCheckPoint\theThirdCheckPoint\bin\Debug\net5.0\theThirdCheckPoint.dll
+C:\Users\david\Desktop\programering_Tutorial\theThirdCheckPoint\theThirdCheckPoint\bin\Debug\net5.0\ref\theThirdCheckPoint.dll
+C:\Users\david\Desktop\programering_Tutorial\theThirdCheckPoint\theThirdCheckPoint\bin\Debug\net5.0\theThirdCheckPoint.pdb
+C:\Users\david\Desktop\programering_Tutorial\theThirdCheckPoint\theThirdCheckPoint\obj\Debug\net5.0\theThirdCheckPoint.dll
+C:\Users\david\Desktop\programering_Tutorial\theThirdCheckPoint\theThirdCheckPoint\obj\Debug\net5.0\ref\theThirdCheckPoint.dll
+C:\Users\david\Desktop\programering_Tutorial\theThirdCheckPoint\theThirdCheckPoint\obj\Debug\net5.0\theThirdCheckPoint.pdb
+C:\Users\david\Desktop\programering_Tutorial\theThirdCheckPoint\theThirdCheckPoint\obj\Debug\net5.0\theThirdCheckPoint.genruntimeconfig.cache

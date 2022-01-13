@@ -1,0 +1,16 @@
+C:\Users\david\Desktop\programering_Tutorial\ConsoleApp2_inheritance\ConsoleApp2_inheritance\bin\Debug\net5.0\ConsoleApp2_inheritance.exe
+C:\Users\david\Desktop\programering_Tutorial\ConsoleApp2_inheritance\ConsoleApp2_inheritance\bin\Debug\net5.0\ConsoleApp2_inheritance.deps.json
+C:\Users\david\Desktop\programering_Tutorial\ConsoleApp2_inheritance\ConsoleApp2_inheritance\bin\Debug\net5.0\ConsoleApp2_inheritance.runtimeconfig.json
+C:\Users\david\Desktop\programering_Tutorial\ConsoleApp2_inheritance\ConsoleApp2_inheritance\bin\Debug\net5.0\ConsoleApp2_inheritance.runtimeconfig.dev.json
+C:\Users\david\Desktop\programering_Tutorial\ConsoleApp2_inheritance\ConsoleApp2_inheritance\bin\Debug\net5.0\ConsoleApp2_inheritance.dll
+C:\Users\david\Desktop\programering_Tutorial\ConsoleApp2_inheritance\ConsoleApp2_inheritance\bin\Debug\net5.0\ref\ConsoleApp2_inheritance.dll
+C:\Users\david\Desktop\programering_Tutorial\ConsoleApp2_inheritance\ConsoleApp2_inheritance\bin\Debug\net5.0\ConsoleApp2_inheritance.pdb
+C:\Users\david\Desktop\programering_Tutorial\ConsoleApp2_inheritance\ConsoleApp2_inheritance\obj\Debug\net5.0\ConsoleApp2_inheritance.csproj.AssemblyReference.cache
+C:\Users\david\Desktop\programering_Tutorial\ConsoleApp2_inheritance\ConsoleApp2_inheritance\obj\Debug\net5.0\ConsoleApp2_inheritance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david\Desktop\programering_Tutorial\ConsoleApp2_inheritance\ConsoleApp2_inheritance\obj\Debug\net5.0\ConsoleApp2_inheritance.AssemblyInfoInputs.cache
+C:\Users\david\Desktop\programering_Tutorial\ConsoleApp2_inheritance\ConsoleApp2_inheritance\obj\Debug\net5.0\ConsoleApp2_inheritance.AssemblyInfo.cs
+C:\Users\david\Desktop\programering_Tutorial\ConsoleApp2_inheritance\ConsoleApp2_inheritance\obj\Debug\net5.0\ConsoleApp2_inheritance.csproj.CoreCompileInputs.cache
+C:\Users\david\Desktop\programering_Tutorial\ConsoleApp2_inheritance\ConsoleApp2_inheritance\obj\Debug\net5.0\ConsoleApp2_inheritance.dll
+C:\Users\david\Desktop\programering_Tutorial\ConsoleApp2_inheritance\ConsoleApp2_inheritance\obj\Debug\net5.0\ref\ConsoleApp2_inheritance.dll
+C:\Users\david\Desktop\programering_Tutorial\ConsoleApp2_inheritance\ConsoleApp2_inheritance\obj\Debug\net5.0\ConsoleApp2_inheritance.pdb
+C:\Users\david\Desktop\programering_Tutorial\ConsoleApp2_inheritance\ConsoleApp2_inheritance\obj\Debug\net5.0\ConsoleApp2_inheritance.genruntimeconfig.cache

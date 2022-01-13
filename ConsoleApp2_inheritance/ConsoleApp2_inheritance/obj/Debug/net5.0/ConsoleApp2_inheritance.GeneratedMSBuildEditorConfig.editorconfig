@@ -6,5 +6,5 @@ build_property.ProjectTypeGuids =
 build_property.PublishSingleFile = 
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
-build_property.RootNamespace = theSecoundCheckPoint
-build_property.ProjectDir = C:\Users\david\Desktop\programering_Tutorial\theSecoundCheckPoint\theSecoundCheckPoint\
+build_property.RootNamespace = ConsoleApp2_inheritance
+build_property.ProjectDir = C:\Users\david\Desktop\programering_Tutorial\ConsoleApp2_inheritance\ConsoleApp2_inheritance\

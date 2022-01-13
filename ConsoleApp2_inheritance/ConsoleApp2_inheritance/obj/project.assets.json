@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\david\\Desktop\\programering_Tutorial\\theSecoundCheckPoint\\theSecoundCheckPoint\\theSecoundCheckPoint.csproj",
-      "projectName": "theSecoundCheckPoint",
-      "projectPath": "C:\\Users\\david\\Desktop\\programering_Tutorial\\theSecoundCheckPoint\\theSecoundCheckPoint\\theSecoundCheckPoint.csproj",
+      "projectUniqueName": "C:\\Users\\david\\Desktop\\programering_Tutorial\\ConsoleApp2_inheritance\\ConsoleApp2_inheritance\\ConsoleApp2_inheritance.csproj",
+      "projectName": "ConsoleApp2_inheritance",
+      "projectPath": "C:\\Users\\david\\Desktop\\programering_Tutorial\\ConsoleApp2_inheritance\\ConsoleApp2_inheritance\\ConsoleApp2_inheritance.csproj",
       "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\david\\Desktop\\programering_Tutorial\\theSecoundCheckPoint\\theSecoundCheckPoint\\obj\\",
+      "outputPath": "C:\\Users\\david\\Desktop\\programering_Tutorial\\ConsoleApp2_inheritance\\ConsoleApp2_inheritance\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

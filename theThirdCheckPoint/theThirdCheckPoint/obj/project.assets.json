@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\david\\Desktop\\programering_Tutorial\\theSecoundCheckPoint\\theSecoundCheckPoint\\theSecoundCheckPoint.csproj",
-      "projectName": "theSecoundCheckPoint",
-      "projectPath": "C:\\Users\\david\\Desktop\\programering_Tutorial\\theSecoundCheckPoint\\theSecoundCheckPoint\\theSecoundCheckPoint.csproj",
+      "projectUniqueName": "C:\\Users\\david\\Desktop\\programering_Tutorial\\theThirdCheckPoint\\theThirdCheckPoint\\theThirdCheckPoint.csproj",
+      "projectName": "theThirdCheckPoint",
+      "projectPath": "C:\\Users\\david\\Desktop\\programering_Tutorial\\theThirdCheckPoint\\theThirdCheckPoint\\theThirdCheckPoint.csproj",
       "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\david\\Desktop\\programering_Tutorial\\theSecoundCheckPoint\\theSecoundCheckPoint\\obj\\",
+      "outputPath": "C:\\Users\\david\\Desktop\\programering_Tutorial\\theThirdCheckPoint\\theThirdCheckPoint\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
