@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "\\\\Mac\\Home\\Easit AB\\Academy 2019 - General\\Kursmaterial\\Kursmaterial C# Sommaren 2019\\ADO.NET\\Bloggy.Demo\\Bloggy.Demo.csproj": {}
+    "C:\\Users\\david\\Desktop\\programering_Tutorial\\Bloggy.Demo\\Bloggy.Demo.csproj": {}
   },
   "projects": {
-    "\\\\Mac\\Home\\Easit AB\\Academy 2019 - General\\Kursmaterial\\Kursmaterial C# Sommaren 2019\\ADO.NET\\Bloggy.Demo\\Bloggy.Demo.csproj": {
+    "C:\\Users\\david\\Desktop\\programering_Tutorial\\Bloggy.Demo\\Bloggy.Demo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\Mac\\Home\\Easit AB\\Academy 2019 - General\\Kursmaterial\\Kursmaterial C# Sommaren 2019\\ADO.NET\\Bloggy.Demo\\Bloggy.Demo.csproj",
+        "projectUniqueName": "C:\\Users\\david\\Desktop\\programering_Tutorial\\Bloggy.Demo\\Bloggy.Demo.csproj",
         "projectName": "Bloggy.Demo",
-        "projectPath": "\\\\Mac\\Home\\Easit AB\\Academy 2019 - General\\Kursmaterial\\Kursmaterial C# Sommaren 2019\\ADO.NET\\Bloggy.Demo\\Bloggy.Demo.csproj",
-        "packagesPath": "C:\\Users\\patri\\.nuget\\packages\\",
-        "outputPath": "\\\\Mac\\Home\\Easit AB\\Academy 2019 - General\\Kursmaterial\\Kursmaterial C# Sommaren 2019\\ADO.NET\\Bloggy.Demo\\obj\\",
+        "projectPath": "C:\\Users\\david\\Desktop\\programering_Tutorial\\Bloggy.Demo\\Bloggy.Demo.csproj",
+        "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\david\\Desktop\\programering_Tutorial\\Bloggy.Demo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\patri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -64,7 +65,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

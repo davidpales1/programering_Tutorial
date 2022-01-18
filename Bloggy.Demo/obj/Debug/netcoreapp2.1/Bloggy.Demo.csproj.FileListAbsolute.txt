@@ -10,3 +10,16 @@
 \\Mac\Home\Easit AB\Academy 2019 - General\Kursmaterial\Kursmaterial C# Sommaren 2019\ADO.NET\Bloggy.Demo\obj\Debug\netcoreapp2.1\Bloggy.Demo.dll
 \\Mac\Home\Easit AB\Academy 2019 - General\Kursmaterial\Kursmaterial C# Sommaren 2019\ADO.NET\Bloggy.Demo\obj\Debug\netcoreapp2.1\Bloggy.Demo.pdb
 \\Mac\Home\Easit AB\Academy 2019 - General\Kursmaterial\Kursmaterial C# Sommaren 2019\ADO.NET\Bloggy.Demo\obj\Debug\netcoreapp2.1\Bloggy.Demo.genruntimeconfig.cache
+C:\Users\david\Desktop\programering_Tutorial\Bloggy.Demo\bin\Debug\netcoreapp2.1\Bloggy.Demo.deps.json
+C:\Users\david\Desktop\programering_Tutorial\Bloggy.Demo\bin\Debug\netcoreapp2.1\Bloggy.Demo.runtimeconfig.json
+C:\Users\david\Desktop\programering_Tutorial\Bloggy.Demo\bin\Debug\netcoreapp2.1\Bloggy.Demo.runtimeconfig.dev.json
+C:\Users\david\Desktop\programering_Tutorial\Bloggy.Demo\bin\Debug\netcoreapp2.1\Bloggy.Demo.dll
+C:\Users\david\Desktop\programering_Tutorial\Bloggy.Demo\bin\Debug\netcoreapp2.1\Bloggy.Demo.pdb
+C:\Users\david\Desktop\programering_Tutorial\Bloggy.Demo\obj\Debug\netcoreapp2.1\Bloggy.Demo.csproj.AssemblyReference.cache
+C:\Users\david\Desktop\programering_Tutorial\Bloggy.Demo\obj\Debug\netcoreapp2.1\Bloggy.Demo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david\Desktop\programering_Tutorial\Bloggy.Demo\obj\Debug\netcoreapp2.1\Bloggy.Demo.AssemblyInfoInputs.cache
+C:\Users\david\Desktop\programering_Tutorial\Bloggy.Demo\obj\Debug\netcoreapp2.1\Bloggy.Demo.AssemblyInfo.cs
+C:\Users\david\Desktop\programering_Tutorial\Bloggy.Demo\obj\Debug\netcoreapp2.1\Bloggy.Demo.csproj.CoreCompileInputs.cache
+C:\Users\david\Desktop\programering_Tutorial\Bloggy.Demo\obj\Debug\netcoreapp2.1\Bloggy.Demo.dll
+C:\Users\david\Desktop\programering_Tutorial\Bloggy.Demo\obj\Debug\netcoreapp2.1\Bloggy.Demo.pdb
+C:\Users\david\Desktop\programering_Tutorial\Bloggy.Demo\obj\Debug\netcoreapp2.1\Bloggy.Demo.genruntimeconfig.cache

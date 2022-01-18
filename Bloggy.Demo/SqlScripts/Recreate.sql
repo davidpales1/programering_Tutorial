@@ -1,5 +1,7 @@
-﻿--USE master
---CREATE DATABASE BlogPostDemo 
+﻿USE master
+CREATE DATABASE BlogPostDemo 
+
+GO
 
 USE BlogPostDemo
 
@@ -11,3 +13,4 @@ CREATE TABLE BlogPost
     Title NVARCHAR(50) NULL,
 	Author NVARCHAR(50) NULL,
 )
+GO
