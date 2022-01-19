@@ -10,8 +10,8 @@ namespace Miniproject1
     {
         static void Main(string[] args)
         {
-            //string test = commounFunctions.ConvertToLocalMonyFromNet(50);
-           // Console.WriteLine(test);
+            string test = commounFunctions.ConvertToLocalMonyFromNet(50);
+            //Console.WriteLine(test);
 
             //variable
             bool moreProduct = true;
@@ -126,12 +126,12 @@ namespace Miniproject1
                 string userInfo = client.DownloadString("https://ipinfo.io/?token=0df663b976da63");
                 dynamic userInfoData = System.Text.Json.JsonDocument.Parse(userInfo).RootElement;
                 string country = Convert.ToString(userInfoData.GetProperty("country")); ;
-                Console.Write(country);
-
+                //Console.Write("Your country is: "+ country+". so this is the office that will select.");
                 RegionInfo myRI1 = new RegionInfo(country);
-
                 string isoCurrencySymbol = myRI1.ISOCurrencySymbol;
+
                 string currencySymbol = myRI1.CurrencySymbol;
+
                 string source = client.DownloadString("https://freecurrencyapi.net/api/v2/latest?apikey=3719a600-7454-11ec-a5e0-dd4ad0c02114&base_currency=USD");
                 dynamic data = System.Text.Json.JsonDocument.Parse(source).RootElement;
                 string Rate = Convert.ToString(data.GetProperty("data").GetProperty(isoCurrencySymbol)); ;
@@ -139,7 +139,7 @@ namespace Miniproject1
                 double exchangeRate = double.Parse(Rate);
                 //double exchangeRate = 1.5;
 
-                return (amount * exchangeRate).ToString() + " " + currencySymbol;
+                return (amount * exchangeRate).ToString() + " " + isoCurrencySymbol;
             }
             catch (Exception e)
             {
@@ -261,23 +261,23 @@ namespace Miniproject1
             Console.WriteLine("\n----");
             Console.WriteLine("You added the following mobile:");
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("".PadRight(10) + "Name".PadRight(10)
+            Console.WriteLine("".PadRight(20) + "Name".PadRight(20)
                 + "Brand".PadRight(20)
                 + "Date".PadRight(20)
                 + "Added at".PadRight(20)
-                + "Price".PadRight(10)
-                + "Model".PadRight(10)
-                + "Number Of camera".PadRight(10)
-                + "EL Type".PadRight(10));
+                + "Price".PadRight(20)
+                + "Model".PadRight(20)
+                + "Number Of camera".PadRight(20)
+                + "EL Type".PadRight(20));
 
-            Console.WriteLine("".PadRight(10) + product.Name.PadRight(10)
+            Console.WriteLine("".PadRight(20) + product.Name.PadRight(20)
                 + product.Brand.PadRight(20)
                 + product.Date.ToString("yyyy-MM-dd").PadRight(20)
                 + product.addDate.ToString("yyyy-MM-dd").PadRight(20)
-                + priceInSEK.PadRight(10)
-            + (product as mobile).Model.PadRight(10)
-            + (product as mobile).NumberOfCamera.ToString().PadRight(10)
-            + (product as mobile).Type.PadRight(10));
+                + priceInSEK.PadRight(20)
+            + (product as mobile).Model.PadRight(20)
+            + (product as mobile).NumberOfCamera.ToString().PadRight(20)
+            + (product as mobile).Type.PadRight(20));
             Console.ResetColor();
 
         }
@@ -290,23 +290,23 @@ namespace Miniproject1
             Console.WriteLine("\n----");
             Console.WriteLine("You added the following laptop:");
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("".PadRight(10) + "Name".PadRight(10)
+            Console.WriteLine("".PadRight(20) + "Name".PadRight(20)
                 + "Brand".PadRight(20)
                 + "Date".PadRight(20)
                 + "Added at".PadRight(20)
-                + "Price".PadRight(10)
-                + "Model".PadRight(10)
-                + "EL Type".PadRight(10)
-                + "Extra Info".PadRight(10));
+                + "Price".PadRight(20)
+                + "Model".PadRight(20)
+                + "EL Type".PadRight(20)
+                + "Extra Info".PadRight(20));
 
-            Console.WriteLine("".PadRight(10) + product.Name.PadRight(10)
+            Console.WriteLine("".PadRight(20) + product.Name.PadRight(20)
                 + product.Brand.PadRight(20)
                 + product.Date.ToString("yyyy-MM-dd").PadRight(20)
                 + product.addDate.ToString("yyyy-MM-dd").PadRight(20)
-                + priceInSEK.PadRight(10)
-            + (product as laptop).Model.PadRight(10)
-            + (product as laptop).Type.PadRight(10)
-            + (product as laptop).GPUType.PadRight(10));
+                + priceInSEK.PadRight(20)
+            + (product as laptop).Model.PadRight(20)
+            + (product as laptop).Type.PadRight(20)
+            + (product as laptop).GPUType.PadRight(20));
             Console.ResetColor();
         }
 
@@ -314,14 +314,14 @@ namespace Miniproject1
         {
 
             Console.WriteLine("You specified the following products (sorted by laptop then by date):");
-            Console.WriteLine("".PadRight(10) + "Name".PadRight(10)
+            Console.WriteLine("".PadRight(20) + "Name".PadRight(20)
                 + "Brand".PadRight(20)
                 + "Date".PadRight(20)
                 + "Added at".PadRight(20)
-                + "Price".PadRight(10)
-                + "Model".PadRight(10)
-                + "EL Type".PadRight(10)
-                + "Extra Info".PadRight(10));
+                + "Price".PadRight(20)
+                + "Model".PadRight(20)
+                + "EL Type".PadRight(20)
+                + "Extra Info".PadRight(20));
 
             List<Product> sortedProducts = products.OrderBy(product => product.GetType().Name)
                 .ThenBy(product => product.Date).ToList();
@@ -347,27 +347,27 @@ namespace Miniproject1
                 {
 
 
-                    Console.WriteLine("".PadRight(10) + product.Name.PadRight(10)
+                    Console.WriteLine("".PadRight(20) + product.Name.PadRight(20)
                         + product.Brand.PadRight(20)
                         + product.Date.ToString("yyyy-MM-dd").PadRight(20)
                         + product.addDate.ToString("yyyy-MM-dd").PadRight(20)
-                        + priceInSEK.PadRight(10)
-                    + (product as laptop).Model.PadRight(10)
-                    + (product as laptop).Type.PadRight(10)
-                    + (product as laptop).GetExtraInfo().PadRight(10)
+                        + priceInSEK.PadRight(20)
+                    + (product as laptop).Model.PadRight(20)
+                    + (product as laptop).Type.PadRight(20)
+                    + (product as laptop).GetExtraInfo().PadRight(20)
 );
                 }
                 else if (product is mobile)
                 {
-                    Console.WriteLine("".PadRight(10)
-                        + product.Name.PadRight(10)
+                    Console.WriteLine("".PadRight(20)
+                        + product.Name.PadRight(20)
                         + product.Brand.PadRight(20)
                         + product.Date.ToString("yyyy-MM-dd").PadRight(20)
                         + product.addDate.ToString("yyyy-MM-dd").PadRight(20)
-                        + priceInSEK.PadRight(10)
-                        + (product as mobile).Model.PadRight(10)
-                        + (product as mobile).Type.PadRight(10)
-                        + (product as mobile).GetExtraInfo().PadRight(10));
+                        + priceInSEK.PadRight(20)
+                        + (product as mobile).Model.PadRight(20)
+                        + (product as mobile).Type.PadRight(20)
+                        + (product as mobile).GetExtraInfo().PadRight(20));
                 }
 
 
