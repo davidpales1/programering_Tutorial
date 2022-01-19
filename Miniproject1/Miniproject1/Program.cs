@@ -117,7 +117,6 @@ namespace Miniproject1
         {
             try
             {
-                string currentCulture = CultureInfo.CurrentCulture.Name; // "SEK", 
                 //string[] countr = culture.Split("-");
                 //string country = countr[1];
                 //Console.Write(country);
@@ -134,9 +133,13 @@ namespace Miniproject1
 
                 string source = client.DownloadString("https://freecurrencyapi.net/api/v2/latest?apikey=3719a600-7454-11ec-a5e0-dd4ad0c02114&base_currency=USD");
                 dynamic data = System.Text.Json.JsonDocument.Parse(source).RootElement;
+
+
                 string Rate = Convert.ToString(data.GetProperty("data").GetProperty(isoCurrencySymbol));
                 Console.WriteLine(Rate);
                 //string RateinAnotherRegion = "0.2";
+                string currentCulture = CultureInfo.CurrentCulture.Name; // "SEK", 
+
                 try
                 {
                     CultureInfo cultur = new CultureInfo(currentCulture); // I'm assuming german here.
