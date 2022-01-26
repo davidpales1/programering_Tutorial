@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "cda37715-737f-437c-a30d-c46b8886a40f": {
+      "ProjectGuid": "cda37715-737f-437c-a30d-c46b8886a40f",
+      "DisplayName": "ConsoleApp2_ManyToMany_20220125",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
