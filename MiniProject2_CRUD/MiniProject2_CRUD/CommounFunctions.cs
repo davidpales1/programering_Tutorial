@@ -8,6 +8,27 @@ namespace MiniProject2_CRUD
 {
     class CommounFunctions
     {
+        public static string FindTheOffice()
+        {
+            try
+            {
+                WebClient client = new WebClient();
+                string userInfo = client.DownloadString("https://ipinfo.io/?token=0df663b976da63");
+                dynamic userInfoData = System.Text.Json.JsonDocument.Parse(userInfo).RootElement;
+                string country = Convert.ToString(userInfoData.GetProperty("country")); ;
+                //Console.Write("Your country is: "+ country+". so this is the office that will select.");
+                RegionInfo myRI1 = new RegionInfo(country);
+                string isoCurrencySymbol = myRI1.ISOCurrencySymbol;
+                return country;
+
+            }
+            catch (Exception e)
+            {
+                Console.Write(e);
+                return null;
+            }
+        }
+
         public static string ConvertToLocalMonyFromNet(int amount)
         {
             try
@@ -31,7 +52,7 @@ namespace MiniProject2_CRUD
 
 
                 string Rate = Convert.ToString(data.GetProperty("data").GetProperty(isoCurrencySymbol));
-                Console.WriteLine(Rate);
+                //Console.WriteLine(Rate);
                 //string RateinAnotherRegion = "0.2";
                 string currentCulture = CultureInfo.CurrentCulture.Name; // "SEK", 
 
@@ -39,19 +60,19 @@ namespace MiniProject2_CRUD
                 {
                     CultureInfo cultur = new CultureInfo(currentCulture); // I'm assuming german here.
                     double exchangeRate = double.Parse(Rate, cultur);
-                    Console.WriteLine(exchangeRate);
+                    //Console.WriteLine(exchangeRate);
 
                     //double exchangeRate = double.Parse(number);
                     //double exchangeRate = 1.5;
 
                     return (amount * exchangeRate).ToString() + " " + isoCurrencySymbol;
                 }
-                catch (Exception ex)
+                catch (Exception)
                 {
                     Rate = Rate.Replace('.', ',');
                     CultureInfo cultur = new CultureInfo("se"); // I'm assuming german here.
                     double exchangeRate = double.Parse(Rate, cultur);
-                    Console.WriteLine(exchangeRate);
+                    //Console.WriteLine(exchangeRate);
 
                     //double exchangeRate = double.Parse(number);
                     //double exchangeRate = 1.5;
@@ -71,34 +92,6 @@ namespace MiniProject2_CRUD
 
         }
 
-
-        public static bool AskIfMore()
-        {
-            while (true)
-            {
-                Console.WriteLine("Do you want to add more product to the list(yes/no)(y/n):");
-                string answer = Console.ReadLine();
-                answer = answer.Trim().ToLower();
-
-                if (answer == "yes" || answer == "y") // check if it's q  små bokstäver ska inte spela
-                {
-                    return true;
-                }
-
-                else if (answer == "no" || answer == "n")
-                {
-                    Console.WriteLine("\n--------------------------------------------------------");
-                    Console.ForegroundColor = ConsoleColor.Green;
-                    Console.WriteLine("Thank you for your purchase!");
-                    Console.ResetColor();
-                    return false;
-                }
-                else
-                {
-                    Console.WriteLine("You must selct 'yes'/'y' or 'no'/'n':");
-                }
-            }
-        }
         public static bool IsQuit(string inputt)
         {
             inputt = inputt.ToLower().Trim(); //check if it's exit  små bokstäver ska inte spela
@@ -109,7 +102,6 @@ namespace MiniProject2_CRUD
             else if (inputt == "")
             {
                 Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("You must not enter an empty value!");
                 Console.ResetColor();
                 return false;
             }
@@ -125,7 +117,7 @@ namespace MiniProject2_CRUD
             if (inputt == "")
             {
                 Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("You must not enter an empty value!");
+                Console.WriteLine("You have enter an empty value!");
                 Console.ResetColor();
                 return true;
             }

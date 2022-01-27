@@ -22,6 +22,7 @@ namespace MiniProject2_CRUD
         public int Id { get; set; }
 
         public string Name { get; set; }
+        public string Discriminator { get; set; }
         public DateTime AddDate = new DateTime();
 
         public DateTime Date { get; set; }
@@ -46,7 +47,6 @@ namespace MiniProject2_CRUD
             this.Model = model;
 
         }
-        public int Id { get; set; }
 
         public string GPUType { get; set; }
         public string Model { get; set; }
@@ -72,7 +72,6 @@ namespace MiniProject2_CRUD
             this.Model = model;
 
         }
-        public int Id { get; set; }
         public int NumberOfCamera { get; set; }
         public string Model { get; set; }
         public override string Type => "mobile";
