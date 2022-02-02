@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="test.css">
+        <!-- <style>
+            h1{
+                color:red
+            }
+        </style> -->
+        <title>My cars</title>
+    </head>
+    <body>
+        <!-- <h1 style="color: blue;">My cars</h1> -->
+        <h1>My cars</h1>
+        <button onclick="loadMyCars()">Load my cars</button>
+        <ul id="myCars">
+            <!-- <li>Volvo 245 GLT</li>
+            <li>Saab 900 Turbo</li>
+            <li>Volvo 244 DL</li> -->
+        </ul>
+        <script src="test2.js"></script>
+    </body>
+</html>
+<!-- <script>
+    let cars = [{
+        brand: "Volvo",
+        model: "262 GL"
+    },
+    {
+        brand: "Saab",
+        model: "900 Turbo"
+    },
+    {
+        brand: "Volvo",
+        model: "244 GLT"
+    },
+    {
+        brand: "BMW",
+        model: "2002 ti"
+    }
+    ];
+
+    // function loadMyCars(){
+    //     let result="";
+    //     for(let i=0;i < cars.length; i++){
+    //         result += "<li>" + cars[i].brand + "  " + cars[i].model + "</li>";
+    //     }
+    //     //result += "<h3>Totally " + i + " cars</h3>";
+    //     result += "<h3>Totally " + cars.length + " cars</h3>";
+
+    //     document.getElementById("myCars").innerHTML = result;
+    // }
+
+    function loadMyCars(){
+        for(let i=0;i < cars.length; i++){
+            let node = document.createElement("li");
+            let textnode = document.createTextNode(cars[i].brand + "  " + cars[i].model);
+            node.appendChild(textnode);
+            document.getElementById("myCars").appendChild(node);
+        }
+
+        let node = document.createElement("h3");
+        let textnode = document.createTextNode("Totally " + cars.length + " cars");
+        node.appendChild(textnode);
+        document.getElementById("myCars").appendChild(node);
+    }
+</script> -->

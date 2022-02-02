@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="test.css">
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+        <script src="jquery.js"></script>
+        <title>My cars</title>
+    </head>
+    <body>
+        <h1>My cars</h1>
+        <table>
+            <tr>
+                <th>Index</th>
+                <th>Brand</th>
+                <th>Model</th>
+                <th>Year</th>
+            </tr>
+            <tr>
+                <td><input disabled type="text" id="index"></td>
+                <td><input type="text" id="brand" value="Volvo"></td>
+                <td><input type="text" id="model" value="244 GLT"></td>
+                <td><input type="text" id="year" value="1980"></td>
+                <td><button id="addcar" onclick = "addCar(brand, model, year)">Add</button>
+                    <button id="editcar" onclick = "updateCar(index, brand, model, year)">Update</button>
+                </td>
+            </tr>
+        </table>
+        <table id="carTable">
+
+        </table>
+        
+    </body>
+</html>
+<script>
+    let cars = [];
+
+    function addCar(brand,model,year){
+        cars.push({
+            brand: brand.value,
+            model: model.value,
+            year: year.value
+        });
+
+        loadMyCars();
+    }
+
+    function loadMyCars(){
+        let result="";
+
+        result += "<tr>";
+        result += "<th>Brand</th>";
+        result += "<th>Model</th>";
+        result += "<th>Year</th>";
+        result += "</tr>";
+
+        for(let i = 0;i < cars.length;i++){
+            result += "<tr>";
+            result += "<td>" + cars[i].brand + "</td>";
+            result += "<td>" + cars[i].model + "</td>";
+            result += "<td>" + cars[i].year + "</td>";
+            result += "<td>" 
+                + "<button onclick='deleteCar(this)'>Delete</button>" 
+                + "<button onclick='editCar(this)'>Edit</button>" 
+                + "</td>";
+            result += "</tr>";
+        }
+
+        result += "<h3>Totally " + cars.length + " cars</h3>";
+
+        document.getElementById("carTable").innerHTML = result;
+
+    }
+    function deleteCar(button){
+        let index = $(button).parent().parent().index() - 1;
+        cars.splice(index,1);
+        loadMyCars();
+    }
+    function editCar(button){
+        let index = $(button).parent().parent().index() - 1;
+        let car = cars[index];
+        document.getElementById("index").value = index;
+        $("#brand").val(car.brand);
+        $("#model").val(car.model);
+        $("#year").val(car.year);
+        $("#addcar").hide();
+        $("#editcar").show();
+
+}
+function updateCar(index, brand, model, year){
+    $("#addcar").show();
+    $("#editcar").hide();
+    cars[index.value]={
+        brand: brand.value,
+        model: model.value,
+        year: year.value
+    }
+    loadMyCars();
+}
+</script>
