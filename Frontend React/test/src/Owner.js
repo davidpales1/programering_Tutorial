@@ -1,11 +1,11 @@
-let Owner = () => {
+let Owner = (props) => {
     return (
         <p>
             <div>
-                Owner: jihad
+                Owner: {props.owner}
             </div>
             <div>
-                Purachase Date: 2022
+                Purachase Date: {props.date}
             </div>
         </p>
     )
